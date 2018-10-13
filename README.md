@@ -11,5 +11,8 @@ functions:
 To remind myself about the push_back() function for vectors, I used the following:
 http://www.cplusplus.com/reference/vector/vector/push_back/
 
+To put random values into the vector, I used the rand() function as described in the following:
+http://www.cplusplus.com/reference/cstdlib/rand/
+
 To figure out the implementation of the sort() function, I used the following:
 http://www.cplusplus.com/reference/algorithm/sort/
