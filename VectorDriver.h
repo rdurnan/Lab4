@@ -1,3 +1,9 @@
+// VectorDriver.h
+// Ryan Durnan
+// COSC-2030-01
+// Lab4
+// 08 October 2018
+
 /* File: VectorDriver.cpp
  * Athr: Dimitri Zarzhitsky
  * Date: October 16, 2002
