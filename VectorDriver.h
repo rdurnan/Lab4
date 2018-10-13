@@ -57,7 +57,9 @@ short compute_sum(const vector<short> &data) {
   return sum;
 }
 
-// TODO: implement add_numbers
+// This function adds random numbers (between 1 and 25)
+// to a vector. It passes the vector by reference to
+// update the values in said vector.
 void add_numbers(vector<short> &data)
 {
 	for (int i = 0; i <= 9; i++)							// Start a loop that will repeat 10 times.
@@ -66,7 +68,9 @@ void add_numbers(vector<short> &data)
 	}
 }
 
-// TODO: implement print_even
+// This function prints out all the values in a vector
+// that appear at even indexes. It passes the vector by
+// reference to update the values in said vector.
 void print_even(const vector<short>& data)
 {
 	if (data.empty())										// If the vector is empty...
@@ -91,7 +95,10 @@ void print_even(const vector<short>& data)
 	}
 }
 
-// TODO: implement is_present
+// This function determines if a specific value appears
+// in the given vector. It uses an iterator to search
+// through the vector. As soon as the desired value is
+// found, the function returns true.
 bool is_present(const vector<short> &data, short value)
 {
 	vector<short>::const_iterator iter = data.begin();		// Create the iterator
