@@ -10,3 +10,6 @@ functions:
 
 To remind myself about the push_back() function for vectors, I used the following:
 http://www.cplusplus.com/reference/vector/vector/push_back/
+
+To figure out the syntax for the sort() function, I used the following:
+http://www.cplusplus.com/reference/algorithm/sort/
